@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#landing-screen{
+    height: 100vh;
+    background-image: url(./images/making-bed.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#hero-text{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.landing-text{
+    color: white;
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+#trustpilot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#support-btn{
+    border-radius: 30px;
+    background-color: #3040b6;
+    color: #ffffff;
+    padding: 3px;
+    height: 45px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    border: none;
+    outline: none;
+}
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    margin: 10px;
+  }
+
+  .navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: #F4F2F3;
+  }
+
+ .navbar-brand{
+    color: #fff !important;
+    font-size: 32px;
+    margin-right: 65px;
+    margin-left: 10px;
+ } 
+
+.dropdown-menu{
+    border-radius: 5px;
+}
+
+  .dropdown-item{
+    padding: 11px !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .dropdown-item:hover{
+    color: blue;
+  }
+
+.register{
+    background-color: #3040b6;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.register:hover{
+    color: #ffffff;
+}
+
+.login{
+    color: #F4F6F7;
+    border-color: #ffffff;
+    margin-right: 10px;
+    height: 43px;
+    width: 80px;
+}
+
+.login:hover{
+    background-color: #ffffff;
+    color: #3040b6;
+}
+
+.form-control{
+    height: 90px;
+    width: 600px !important;
+    border-radius: 10px !important;
+    font-size: 20px;
+    color: lightgrey;
+    padding-right: 48px;
+    height: 100px;
+}
+
+.find-location{
+    background-color: #3040b6;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px !important;
+}
+
+.find-location:hover{
+    color: #ffffff;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+}
+
+.input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.card-text{
+    margin: 5px !important;
+}
+
+.service-images{
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.card{
+    margin: 30px !important;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 700px;
+}
+
+.card-group{
+    background-color: #f8fbfe;
+}
+
+.services-title{
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    margin-right: 100px;
+}
+
+.featured-logos{
+    width: 120px;
+    margin: 20px;
+}
+
+.company-featured{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
